@@ -5,8 +5,6 @@
 >
 > A sophisticated machine learning system for comprehensive psychological and behavioral analysis using NLP, deep learning, and behavioral pattern recognition.
 
-**Repository:** https://github.com/Imposter-zx/Mind-Reader-AI-System  
-**Author:** imposter-zx (alizord4@gmail.com)  
 **Version:** 2.0  
 **Status:** ✅ Production Ready  
 **Last Updated:** April 19, 2026
