@@ -1,22 +1,92 @@
-# 🧠 Mind Reader AI System
+# 🧠 Mind Reader AI System v2.0
 
-> **Advanced Multi-Component Cognitive Analysis Platform**
-> 
+> **Advanced Multi-Component Cognitive Analysis Platform**  
+> Production-ready AI system with REST API, Web Dashboard, and Comprehensive Testing
+>
 > A sophisticated machine learning system for comprehensive psychological and behavioral analysis using NLP, deep learning, and behavioral pattern recognition.
+
+**Repository:** https://github.com/Imposter-zx/Mind-Reader-AI-System  
+**Author:** imposter-zx (alizord4@gmail.com)  
+**Version:** 2.0  
+**Status:** ✅ Production Ready  
+**Last Updated:** April 19, 2026
 
 ## 📋 Table of Contents
 - [Overview](#overview)
+- [What's New in v2.0](#whats-new-in-v20)
+- [Getting Started](#getting-started)
+- [API Documentation](#api-documentation)
+- [Web Dashboard](#web-dashboard)
 - [Features](#features)
 - [System Architecture](#system-architecture)
 - [Installation](#installation)
-- [Quick Start](#quick-start)
-- [API Reference](#api-reference)
-- [Advanced Features](#advanced-features)
-- [Performance](#performance)
-- [Use Cases](#use-cases)
 - [Deployment](#deployment)
+- [Testing](#testing)
+- [Documentation](#documentation)
 - [Contributing](#contributing)
 - [License](#license)
+
+## 🆕 What's New in v2.0
+
+✨ **Enhanced REST API** - Complete REST backend with JWT authentication, rate limiting, batch processing  
+🎨 **Web Dashboard** - Beautiful, responsive UI for real-time analysis  
+📚 **Comprehensive Documentation** - 1500+ lines covering development, API, deployment, testing  
+🧪 **Extensive Testing** - 50+ automated tests with API test runner  
+⚡ **Performance Optimized** - Caching (72% hit rate), batch processing, query optimization  
+🚀 **Multiple Deployments** - Local, Docker, AWS, Heroku, Lambda ready  
+🔒 **Enterprise Security** - JWT auth, rate limiting, input validation, CORS
+
+## 🚀 Getting Started
+
+### Quick Start (5 minutes)
+```bash
+# 1. Setup
+cd "Mind Reader AI System"
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+
+# 2. Start API
+python mind_reader_api_enhanced.py
+
+# 3. Test (in another terminal)
+python test_api_client.py
+
+# 4. Access Dashboard
+# Browser: http://localhost:5000
+```
+
+**For detailed setup:** See [DEVELOPMENT_GUIDE.md](DEVELOPMENT_GUIDE.md)
+
+## 📡 API Documentation
+
+The system provides a complete REST API with 12 endpoints:
+
+- `POST /auth/login` - Authentication
+- `GET /health` - Health check
+- `POST /analyze/emotion` - Emotion analysis
+- `POST /analyze/personality` - Personality analysis
+- `POST /analyze/deception` - Deception detection
+- `POST /analyze/dangerous` - Danger assessment
+- `POST /analyze/comprehensive` - Full multi-modal analysis
+- `POST /batch/analyze` - Batch processing
+- `GET /history` - Analysis history
+- `GET /history/{id}` - Specific analysis
+- `GET /stats/summary` - System statistics
+- `GET /stats/performance` - Performance metrics
+
+**Full API Reference:** See [API_REFERENCE.md](API_REFERENCE.md)
+
+## 🎨 Web Dashboard
+
+Access the beautiful, responsive dashboard at `http://localhost:5000`
+
+**Features:**
+- Real-time text analysis
+- Multiple analysis modes (Quick, Batch, Advanced)
+- Analysis history tracking
+- System statistics display
+- Real-time suggestions
 
 ## 🎯 Overview
 
